@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'Hello from Flask! i promise im almost there proffessor'
+  return 'Hello from Flask! i promise im almost there professor'
 
 @app.route('/countme/<input_str>')
 def count_me(input_str):
